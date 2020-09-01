@@ -1,0 +1,17 @@
+.ham-menu{
+    padding: 20px 0;
+}
+
+.ham-menu ul{
+    overflow: hidden;
+    overflow-y: scroll;
+    margin: 0;
+    padding: 0;
+    margin: 0 5%;
+}
+.ham-menu ul>li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}

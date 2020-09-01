@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {Row, Col} from 'react-bootstrap'
 
 import NavigationBar from './navigationBar'
+import HamMenu from './hamMenu'
 
 import "../../../css/body/header/header.css"
 
@@ -12,7 +13,7 @@ class header extends Component {
                 <div className="bgimg">     
                     <div className="image-wrapper">
                         <div className="content">
-                            <div className="top-bar fixed-top">
+                            <div className="top-bar">
                                 <Row className="top-row">
                                     <Col xs={12} lg={8} className="col">
                                         <Row>
@@ -37,7 +38,10 @@ class header extends Component {
                                     </Col>
                                 </Row>
                             </div>
-                            <NavigationBar />
+                            <NavigationBar />            
+                            {/* <div id="ham-menu">
+                                <HamMenu />
+                            </div> */}
                             <div className="sub-content">
                                 <h5>POLO IS FRIENDLY!</h5>
                                 <h1>WORLDWIDE <br/> BUSINESS <br/> COMPANY!</h1>

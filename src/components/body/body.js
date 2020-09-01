@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import Header from './header/header'
-// import Company from './company/company'
+import Company from './company/company'
 
 class body extends Component {
     render() {
@@ -9,7 +9,7 @@ class body extends Component {
             <div>
                 <Header />
 
-                {/* <Company /> */}
+                <Company />
             </div>
         )
     }
