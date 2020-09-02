@@ -1,4 +1,53 @@
 .company{
     width: 100%;
     min-height: 100vh;
+    overflow: hidden;
+}
+
+.company .col{
+    margin: 0;
+    padding: 0;
+}
+
+.company .left.col{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../../../assets/company/company.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+}
+
+.company .right.col{
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company .right.col .heading-border{
+    display: inline-block;
+    width: 20%;
+    height: 5px;
+    border-bottom: 2px solid #2d59fc;
+    margin-bottom: 20px;
+}
+
+.company .right.col h1{
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.company .right.col p{
+    font-size: 20px;
+}
+
+@media(max-width:1199px){
+    .company .left.col{
+        width: 100%;
+        min-height: 50vh;
+    }
 }

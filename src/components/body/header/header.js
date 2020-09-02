@@ -15,17 +15,17 @@ class header extends Component {
                         <div className="content">
                             <div className="top-bar">
                                 <Row className="top-row">
-                                    <Col xs={12} lg={8} className="col">
+                                    <Col xs={12} xl={8} className="col">
                                         <Row>
-                                            <Col xs={12} lg={4} className="top-left phone col">
+                                            <Col xs={12} lg={6} xl={4} className="top-left phone col">
                                                 <a href="tel:+1 (234) 567-890">Phone: +1 (234) 567-890</a>    
                                             </Col>
-                                            <Col xs={12} lg={8} className="top-left mail col">
+                                            <Col xs={12} lg={6} xl={8} className="top-left mail col">
                                                 <a href="mailto:contact@inspiro-media.com">Email: contact@inspiro-media.com</a>   
                                             </Col>
                                         </Row>
                                     </Col>
-                                    <Col xs={12} lg={4} className="social-links col">
+                                    <Col xs={12} xl={4} className="social-links col">
                                         <a className="yout" href='https://www.youtube.com' target="_blank" rel="noopener noreferrer">
                                             <i className="fab fa-youtube icon"></i>
                                         </a>
