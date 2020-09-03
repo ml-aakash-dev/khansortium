@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import Header from './header/header'
 import Company from './company/company'
+import WhyUs from './company/whyUs'
 
 class body extends Component {
     render() {
@@ -10,6 +11,8 @@ class body extends Component {
                 <Header />
 
                 <Company />
+
+                <WhyUs />
             </div>
         )
     }

@@ -1,0 +1,95 @@
+.why-us{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.why-us .col{
+    margin: 0;
+    padding: 0;
+}
+
+.why-us .right.col{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../../../assets/company/company-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+}
+
+.why-us .left.col{
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.why-us .left.col h5{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.why-us .left.col h1{
+    font-size: 50px;
+    font-weight: 1000;
+    letter-spacing: .5px;
+}
+
+.why-us .left.col p{
+    font-size: 18px;
+    color: rgb(136, 135, 135);
+}
+
+.why-us .left.col .progress-anim{
+    position: relative;
+    width: 100%;
+    height: 20px;
+}
+
+.why-us .left.col .progress-anim h2, .why-us .left.col .progress-anim h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.why-us .left.col .progress-anim h2{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.why-us .left.col .progress-anim h3{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: rgb(136, 135, 135);;
+    opacity: 0;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+
+.why-us .left.col .progress-line{
+    position: relative;
+    width: 0%;
+    height: 2px;
+    /* border-bottom: 2px solid #2d59fc; */
+    background-color: #2d59fc;
+    -webkit-transition: width 1s ease-in-out;
+    -moz-transition: width 1s ease-in-out;
+    -o-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
+    margin-bottom: 20px;
+}
+
+@media(max-width:575px){
+    .why-us .left.col h1{
+        font-size: 30px;
+        font-weight: 800;
+    }
+}

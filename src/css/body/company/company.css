@@ -45,9 +45,8 @@
     font-size: 20px;
 }
 
-@media(max-width:1199px){
-    .company .left.col{
-        width: 100%;
-        min-height: 50vh;
+@media(max-width:575px){
+    .company .right.col h1{
+        font-size: 40px;
     }
 }
