@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import {Row, Col} from 'react-bootstrap'
+import { Link} from "react-scroll"
 
 import NavigationBar from './navigationBar'
-import HamMenu from './hamMenu'
 
 import "../../../css/body/header/header.css"
 
@@ -13,6 +13,19 @@ class header extends Component {
                 <div className="bgimg">     
                     <div className="image-wrapper">
                         <div className="content">
+                            <Link
+                                onClick={this.scrollToSection}
+                                activeClass="active"
+                                to="header"
+                                spy={true}
+                                smooth={true}
+                                offset={-0}
+                                duration= {500}
+                                >
+                            <div className="to-top" id="to-top">
+                                <i className="fas fa-chevron-up"></i>
+                            </div>
+                            </Link>
                             <div className="top-bar">
                                 <Row className="top-row">
                                     <Col xs={12} xl={8} className="col">
@@ -38,10 +51,7 @@ class header extends Component {
                                     </Col>
                                 </Row>
                             </div>
-                            <NavigationBar />            
-                            {/* <div id="ham-menu">
-                                <HamMenu />
-                            </div> */}
+                            <NavigationBar />
                             <div className="sub-content">
                                 <h5>POLO IS FRIENDLY!</h5>
                                 <h1>WORLDWIDE <br/> BUSINESS <br/> COMPANY!</h1>

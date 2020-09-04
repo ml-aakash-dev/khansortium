@@ -1,0 +1,48 @@
+.banner{
+    position: relative;
+    width: 100%;
+    background-image: url(../../../assets/company/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.banner .image-wrapper{
+    width: 100%;
+    background-color: #3471ff;
+    opacity: 0.9;
+    background-attachment: fixed;
+}
+
+.banner .image-wrapper .content{
+    width: 100%;
+    padding: 60px 80px;
+    color: white;
+}
+
+.banner .content h1{
+    font-size: 30px;
+}
+
+.banner .content .btn{
+    border: 2px solid white;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+@media(max-width:767px){
+    .banner .content h1{
+        font-size: 20px;
+    }
+    .banner .content p{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:575px){
+    .banner .image-wrapper .content{
+        padding: 40px 40px;
+    }
+}

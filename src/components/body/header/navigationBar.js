@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import {Nav, Navbar, NavDropdown} from 'react-bootstrap'
-import $ from 'jquery'
 
 import '../../../css/body/header/navigationBar.css'
 
@@ -8,23 +7,33 @@ class navigationBar extends Component {
     constructor(props){
         super(props)
         this.state={
-            navState: "state1",
+            navState: "state1 navigation-bar",
             isNavbarCollapsed: true,
             showDropdown: false
         }
     }
 
     componentDidMount(){
-        // if(window.pageYOffset>10){
-        //     this.setState({
-        //         navState: "state2"
-        //     })
-        // }else{
-        //     this.setState({
-        //         navState:"state1"
-        //     })
-        // }
-
+        document.addEventListener("scroll", () => {
+            if(window.pageYOffset>500){
+                document.getElementById('to-top').style.display="flex"
+            }
+            else{
+                document.getElementById('to-top').style.display="none"
+            }
+            if(window.pageYOffset>300){
+                document.getElementById('navigation-bar').style.position="fixed"
+                this.setState({
+                    navState:"state2 navigation-bar"
+                })
+            }
+            else{
+                document.getElementById('navigation-bar').style.position="relative"
+                this.setState({
+                    navState:"state1 navigation-bar"
+                })
+            }
+        })
     }
     showDropdown = (e)=>{
         this.setState({
@@ -52,7 +61,7 @@ class navigationBar extends Component {
 
     render() {
         return (
-            <Navbar id="navigation-bar" className="navigation-bar" expand="xl">
+            <Navbar id="navigation-bar" className={this.state.navState} expand="xl">
                 <Navbar.Brand id="main-logo" className="logo" href="/">Khansortium</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" children={this._getNavbarToggleIcon()} onClick={this._onNavbarToggleClick}/>
                 <Navbar.Collapse id="basic-navbar-nav">

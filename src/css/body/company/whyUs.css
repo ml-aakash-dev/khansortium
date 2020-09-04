@@ -66,7 +66,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    color: rgb(136, 135, 135);;
+    color: rgb(136, 135, 135);
     opacity: 0;
     -webkit-transition: 1s ease-in-out;
     -moz-transition: 1s ease-in-out;
