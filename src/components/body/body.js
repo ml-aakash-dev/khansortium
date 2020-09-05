@@ -4,7 +4,9 @@ import Header from './header/header'
 import Company from './company/company'
 import WhyUs from './company/whyUs'
 import Banner from './company/banner'
-import Services from './services/services'
+import Services from './services'
+import OurBlog from './ourBlog'
+import OurClients from './ourClients'
 
 class body extends Component {
     render() {
@@ -19,6 +21,10 @@ class body extends Component {
                 <Banner />
 
                 <Services />
+
+                <OurBlog />
+
+                <OurClients />
             </div>
         )
     }

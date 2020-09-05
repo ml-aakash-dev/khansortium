@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {Row, Col} from 'react-bootstrap'
 
-import '../../../css/body/services/services.css'
+import '../../css/body/services.css'
 
 class services extends Component {
     render() {

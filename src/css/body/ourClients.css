@@ -1,0 +1,44 @@
+.our-clients{
+    width: 100%;
+    padding: 60px 80px;
+}
+
+.our-clients h1, .our-clients p{
+    text-align: center;
+}
+
+.our-clients h1{
+    font-size: 50px;
+}
+
+.our-clients p{
+    font-size: 18px;
+    color: rgb(136, 135, 135);
+}
+
+.our-clients .images-slider img{
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+.our-clients .images-slider .out:focus{
+    outline: none;
+}
+
+.our-clients .slick-dots li button:before{
+    font-size: 12px;
+}
+
+@media(max-width: 575px){
+    .our-clients h1{
+        font-size: 40px;
+    }
+    .our-clients p{
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .our-clients{
+        padding: 30px 30px;
+    }
+}

@@ -222,5 +222,9 @@
         border-radius: 5px;
         padding: 10px;
     }
+    .header .content .to-top{
+        bottom: 20px;
+        right: 20px;
+    }
 }
 
