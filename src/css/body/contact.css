@@ -1,0 +1,109 @@
+.contact{
+    position: relative;
+    width: 100%;
+    padding: 60px 80px;
+}
+.contact h1{
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.contact h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact h5{
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.contact p{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(136, 135, 135);
+}
+
+.contact a{
+    text-decoration: none;
+    color: rgb(136, 135, 135);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.contact .yout, .contact .insta, .contact .fb{
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10%;
+    margin-right: 5px;
+}
+.contact .fb:hover{
+    background-color: #5d82d1;
+    color: white;
+}
+.contact .insta:hover{
+    background-color: #eb5e4c;
+    color: white;
+
+}
+.contact .yout:hover{
+    background-color: #ef4e41;
+    color: white;
+
+}
+
+.contact .col{
+    padding-bottom: 40px;
+}
+
+.contact .form-control{
+    background-color: transparent;
+    border: 1px solid rgb(219, 219, 219);
+    color: rgb(136, 135, 135);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.contact .form-control::placeholder{
+    color: rgb(136, 135, 135);
+}
+
+.contact .form-label{
+    color: rgb(136, 135, 135);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.contact .contact-btn{
+    background-color: transparent;
+    border: 1px solid rgb(219, 219, 219);
+    color: rgb(136, 135, 135);
+    font-size: 12px;
+    font-weight: 700;
+}
+.contact .contact-btn:hover{
+    background-color: rgb(235, 233, 233);
+}
+
+@media(max-width: 575px){
+    .contact h1{
+        font-size: 25px;
+    }
+    .contact p{
+        font-size: 15px;
+    }
+    .contact{
+        padding: 30px 30px;
+    }
+}

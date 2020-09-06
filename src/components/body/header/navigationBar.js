@@ -13,7 +13,7 @@ class navigationBar extends Component {
         }
     }
 
-    componentDidMount(){
+    componentDidMount = () => {
         document.addEventListener("scroll", () => {
             if(window.pageYOffset>500){
                 document.getElementById('to-top').style.display="flex"

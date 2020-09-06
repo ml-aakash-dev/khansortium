@@ -6,7 +6,7 @@ import '../../../css/body/company/company.css'
 class company extends Component {
     render() {
         return (
-            <div className="company">
+            <div className="company" id="the-company">
                 <Row>
                     <Col className="col left" xs={12} xl={6}></Col>
                     <Col className="col right" xs={12} xl={6}>

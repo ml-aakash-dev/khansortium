@@ -21,6 +21,7 @@
 
 .our-blog p{
     font-size: 18px;
+    font-weight: 500;
     color: rgb(136, 135, 135);
 }
 
@@ -45,14 +46,13 @@
 
 .our-blog .col p{
     font-size: 15px;
-    font-weight: 450;
+    font-weight: 500;
 }
 @media(max-width: 575px){
     .our-blog h1{
         font-size: 40px;
     }
     .our-blog p{
-        font-weight: 400;
         font-size: 18px;
     }
     .our-blog{

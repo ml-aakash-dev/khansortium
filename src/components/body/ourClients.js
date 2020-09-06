@@ -67,7 +67,7 @@ class ourClients extends Component {
       ]
     }
         return (
-            <div className="our-clients">
+            <div className="our-clients" id="our-clients">
                 <h1>OUR CLIENTS</h1>
                 <p>Our awesome clients we've had the pleasure to work with!</p>
 

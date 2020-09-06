@@ -13,6 +13,7 @@
 
 .our-clients p{
     font-size: 18px;
+    font-weight: 500;
     color: rgb(136, 135, 135);
 }
 
@@ -35,10 +36,10 @@
         font-size: 40px;
     }
     .our-clients p{
-        font-weight: 400;
         font-size: 18px;
     }
     .our-clients{
         padding: 30px 30px;
+        padding-bottom: 50px;
     }
 }

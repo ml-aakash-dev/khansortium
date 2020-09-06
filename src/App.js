@@ -6,13 +6,13 @@ import Main from './components/main/main'
 
 function App() {
   return (
-    <React.Fragment>
+    <>
       <Router>
         <Switch>
           <Route exact path="/" component={Main}/>
         </Switch>
       </Router>
-    </React.Fragment>
+    </>
   );
 }
 

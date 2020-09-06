@@ -9,7 +9,7 @@ import Img3 from '../../assets/our-blog/our-blog3.jpg'
 class ourBlog extends Component {
     render() {
         return (
-            <div className="our-blog">
+            <div className="our-blog" id="our-blog">
                 <h1>OUR BLOG</h1>
                 <span className="heading-border"></span>
                 <p>

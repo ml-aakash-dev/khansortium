@@ -1,0 +1,9 @@
+.locator{
+    position: relative;
+    width: 100%;
+}
+
+.locator>div{
+    position: relative !important;
+    height: inherit !important;
+}

@@ -6,7 +6,7 @@ import '../../css/body/services.css'
 class services extends Component {
     render() {
         return (
-            <div className="services">
+            <div className="services" id="our-services">
                 <h1>OUR SERVICES</h1>
                 <span className="heading-border"></span>
                 <p>

@@ -7,6 +7,9 @@ import Banner from './company/banner'
 import Services from './services'
 import OurBlog from './ourBlog'
 import OurClients from './ourClients'
+import Locator from './locator'
+import Contact from './contact'
+import Footer from './footer'
 
 class body extends Component {
     render() {
@@ -25,6 +28,12 @@ class body extends Component {
                 <OurBlog />
 
                 <OurClients />
+
+                <Locator />
+
+                <Contact />
+
+                <Footer />
             </div>
         )
     }
